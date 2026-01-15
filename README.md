@@ -30,6 +30,7 @@ This project demonstrates how **Infrastructure as Code (IaC)** using **Terraform
 ---
 
 ## 📂 Project Structure
+```bash
 spring-app/
 │
 ├── main/
@@ -49,8 +50,9 @@ spring-app/
 │ ├── ec2/
 │ ├── asg/
 │ └── rds/
-│
+│___ image.png
 └── README.md
+```
 
 
 ### 📌 Structure Highlights
@@ -81,7 +83,7 @@ Step 1: Clone the Project
 
 ```bash
 git clone <repository-url>
-cd springapp_terraform/main
+cd spring-app/main
 ```
 
 Step 2: Configure Backend
