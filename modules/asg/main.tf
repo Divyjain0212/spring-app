@@ -16,7 +16,7 @@ data "aws_ami" "amazon_linux_2" {
 resource "aws_launch_template" "ec2_asg" {
   name                  = "my-launch-template"
   image_id              = data.aws_ami.amazon_linux_2.id
-  instance_type         = "t2.micro"
+  instance_type         = "t3.micro"
   iam_instance_profile {
     name = var.iam_ec2_instance_profile.name
   }
